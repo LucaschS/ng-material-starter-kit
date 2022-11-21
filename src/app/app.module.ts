@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from "@angular/common/http";
+import {ProductListComponentModule} from "./components/product-list/product-list.component-module";
+import {CategoriesListComponentModule} from "./components/categories-list/categories-list.component-module";
+import {ProductServiceModule} from "./services/product.service-module";
+import {CategoryServiceModule} from "./services/category.service-module";
 
 @NgModule({
   declarations: [
@@ -14,7 +17,11 @@ import { HttpClientModule } from "@angular/common/http";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    ProductListComponentModule,
+    CategoriesListComponentModule,
+    // ProductServiceModule,
+    // CategoryServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
