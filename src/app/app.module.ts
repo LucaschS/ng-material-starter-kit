@@ -7,9 +7,9 @@ import { HttpClientModule } from "@angular/common/http";
 import {ProductListComponentModule} from "./components/product-list/product-list.component-module";
 import {CategoriesListComponentModule} from "./components/categories-list/categories-list.component-module";
 import {CryptoChipsComponentModule} from "./components/crypto-chips/crypto-chips.component-module";
+import {PublicHolidayComponentModule} from "./components/public-holiday/public-holiday.component-module";
 
-import {ProductServiceModule} from "./services/product.service-module";
-import {CategoryServiceModule} from "./services/category.service-module";
+
 
 @NgModule({
   declarations: [
@@ -23,8 +23,7 @@ import {CategoryServiceModule} from "./services/category.service-module";
     ProductListComponentModule,
     CategoriesListComponentModule,
     CryptoChipsComponentModule,
-    // ProductServiceModule,
-    // CategoryServiceModule
+    PublicHolidayComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
