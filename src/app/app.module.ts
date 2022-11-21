@@ -11,6 +11,7 @@ import {PublicHolidayComponentModule} from "./components/public-holiday/public-h
 import {
   CategoriesCheckboxListComponentModule
 } from "./components/categories-checkbox-list/categories-checkbox-list.component-module";
+import {CategoriesMenuComponentModule} from "./components/categories-menu/categories-menu.component-module";
 
 
 
@@ -27,7 +28,8 @@ import {
     CategoriesListComponentModule,
     CryptoChipsComponentModule,
     PublicHolidayComponentModule,
-    CategoriesCheckboxListComponentModule
+    CategoriesCheckboxListComponentModule,
+    CategoriesMenuComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
