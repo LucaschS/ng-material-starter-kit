@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from "@angular/common/http";
 import {ProductListComponentModule} from "./components/product-list/product-list.component-module";
 import {CategoriesListComponentModule} from "./components/categories-list/categories-list.component-module";
+import {CryptoChipsComponentModule} from "./components/crypto-chips/crypto-chips.component-module";
+
 import {ProductServiceModule} from "./services/product.service-module";
 import {CategoryServiceModule} from "./services/category.service-module";
 
@@ -20,6 +22,7 @@ import {CategoryServiceModule} from "./services/category.service-module";
     HttpClientModule,
     ProductListComponentModule,
     CategoriesListComponentModule,
+    CryptoChipsComponentModule,
     // ProductServiceModule,
     // CategoryServiceModule
   ],
