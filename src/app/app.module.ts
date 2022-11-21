@@ -8,6 +8,9 @@ import {ProductListComponentModule} from "./components/product-list/product-list
 import {CategoriesListComponentModule} from "./components/categories-list/categories-list.component-module";
 import {CryptoChipsComponentModule} from "./components/crypto-chips/crypto-chips.component-module";
 import {PublicHolidayComponentModule} from "./components/public-holiday/public-holiday.component-module";
+import {
+  CategoriesCheckboxListComponentModule
+} from "./components/categories-checkbox-list/categories-checkbox-list.component-module";
 
 
 
@@ -23,7 +26,8 @@ import {PublicHolidayComponentModule} from "./components/public-holiday/public-h
     ProductListComponentModule,
     CategoriesListComponentModule,
     CryptoChipsComponentModule,
-    PublicHolidayComponentModule
+    PublicHolidayComponentModule,
+    CategoriesCheckboxListComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]

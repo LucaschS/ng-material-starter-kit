@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-card-title>Select category</mat-card-title>
+  <mat-card-content>
+
+<section>
+  <mat-checkbox *ngFor="let item of list$ | async">{{item}} {{'\u00A0'}}</mat-checkbox>
+</section>
+  </mat-card-content>
+</mat-card>
