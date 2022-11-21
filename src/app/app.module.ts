@@ -12,6 +12,7 @@ import {
   CategoriesCheckboxListComponentModule
 } from "./components/categories-checkbox-list/categories-checkbox-list.component-module";
 import {CategoriesMenuComponentModule} from "./components/categories-menu/categories-menu.component-module";
+import {ProductFormComponentModule} from "./components/product-form/product-form.component-module";
 
 
 
@@ -29,7 +30,8 @@ import {CategoriesMenuComponentModule} from "./components/categories-menu/catego
     CryptoChipsComponentModule,
     PublicHolidayComponentModule,
     CategoriesCheckboxListComponentModule,
-    CategoriesMenuComponentModule
+    CategoriesMenuComponentModule,
+    ProductFormComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
