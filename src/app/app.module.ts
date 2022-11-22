@@ -14,6 +14,7 @@ import {
 import {CategoriesMenuComponentModule} from "./components/categories-menu/categories-menu.component-module";
 import {ProductFormComponentModule} from "./components/product-form/product-form.component-module";
 import {EmployeeFormComponentModule} from "./components/employee-form/employee-form.component-module";
+import {LoginComponentModule} from "./components/login/login.component-module";
 
 
 
@@ -33,7 +34,8 @@ import {EmployeeFormComponentModule} from "./components/employee-form/employee-f
         CategoriesCheckboxListComponentModule,
         CategoriesMenuComponentModule,
         ProductFormComponentModule,
-        EmployeeFormComponentModule
+        EmployeeFormComponentModule,
+      LoginComponentModule
     ],
   providers: [],
   bootstrap: [AppComponent]
