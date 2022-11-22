@@ -15,6 +15,7 @@ import {CategoriesMenuComponentModule} from "./components/categories-menu/catego
 import {ProductFormComponentModule} from "./components/product-form/product-form.component-module";
 import {EmployeeFormComponentModule} from "./components/employee-form/employee-form.component-module";
 import {LoginComponentModule} from "./components/login/login.component-module";
+import {RegisterComponentModule} from "./components/register/register.component-module";
 
 
 
@@ -35,7 +36,8 @@ import {LoginComponentModule} from "./components/login/login.component-module";
         CategoriesMenuComponentModule,
         ProductFormComponentModule,
         EmployeeFormComponentModule,
-      LoginComponentModule
+        LoginComponentModule,
+        RegisterComponentModule
     ],
   providers: [],
   bootstrap: [AppComponent]
