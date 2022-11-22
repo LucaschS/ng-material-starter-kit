@@ -13,6 +13,7 @@ import {
 } from "./components/categories-checkbox-list/categories-checkbox-list.component-module";
 import {CategoriesMenuComponentModule} from "./components/categories-menu/categories-menu.component-module";
 import {ProductFormComponentModule} from "./components/product-form/product-form.component-module";
+import {EmployeeFormComponentModule} from "./components/employee-form/employee-form.component-module";
 
 
 
@@ -20,19 +21,20 @@ import {ProductFormComponentModule} from "./components/product-form/product-form
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    ProductListComponentModule,
-    CategoriesListComponentModule,
-    CryptoChipsComponentModule,
-    PublicHolidayComponentModule,
-    CategoriesCheckboxListComponentModule,
-    CategoriesMenuComponentModule,
-    ProductFormComponentModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        ProductListComponentModule,
+        CategoriesListComponentModule,
+        CryptoChipsComponentModule,
+        PublicHolidayComponentModule,
+        CategoriesCheckboxListComponentModule,
+        CategoriesMenuComponentModule,
+        ProductFormComponentModule,
+        EmployeeFormComponentModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
