@@ -94,9 +94,9 @@
       "container": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
       "content": "{{ $itemVariable$ }}"
     },
-    "title-description": {
-      "container": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
-      "content": "<h1>$title$</h1>\n<p>$description$</p>"
+    "activity": {
+      "container": "<mat-card><mat-card-title *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</mat-card-title><mat-card-content><ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container></mat-card-content></mat-card>",
+       "content": "{{ $itemVariable$ }}"
     }
   }
 }

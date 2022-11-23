@@ -1,0 +1,7 @@
+<mat-card>
+  <mat-card-title *ngIf="activityData$ | async as item">{{ item.type }}</mat-card-title>
+  <mat-card-content>
+    <ng-container *ngIf="activityData$ | async as item">{{ item.activity }}</ng-container>
+  </mat-card-content>
+</mat-card>
+
