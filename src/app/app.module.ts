@@ -7,6 +7,7 @@ import { HttpClientModule } from "@angular/common/http";
 import {ProductDetailComponentModule} from "./components/product-detail/product-detail.component-module";
 import {CatFactsComponentModule} from "./components/cat-facts/cat-facts.component-module";
 import {AgePredictionComponentModule} from "./components/age-prediction/age-prediction.component-module";
+import {ProductListComponentModule} from "./components/product-list/product-list.component-module";
 
 
 
@@ -15,16 +16,17 @@ import {AgePredictionComponentModule} from "./components/age-prediction/age-pred
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    HttpClientModule,
-    ProductDetailComponentModule,
-    CatFactsComponentModule,
-    AgePredictionComponentModule,
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        HttpClientModule,
+        ProductDetailComponentModule,
+        CatFactsComponentModule,
+        AgePredictionComponentModule,
+        ProductListComponentModule,
 
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

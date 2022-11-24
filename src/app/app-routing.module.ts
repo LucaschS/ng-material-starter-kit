@@ -6,6 +6,7 @@ import {AgePredictionComponent} from './components/age-prediction/age-prediction
 import {CartComponent} from './components/cart/cart.component';
 import {UserComponent} from './components/user/user.component';
 import {ActivityComponent} from './components/activity/activity.component';
+import {ProductListComponent} from './components/product-list/product-list.component';
 import {ProductDetailComponentModule} from './components/product-detail/product-detail.component-module';
 import {ProductServiceModule} from './services/product.service-module';
 import {CatFactsComponentModule} from './components/cat-facts/cat-facts.component-module';
@@ -18,6 +19,8 @@ import {UserComponentModule} from './components/user/user.component-module';
 import {UserServiceModule} from './services/user.service-module';
 import {ActivityComponentModule} from './components/activity/activity.component-module';
 import {ActivityServiceModule} from './services/activity.service-module';
+import {ProductListComponentModule} from './components/product-list/product-list.component-module';
+import {ProductsServiceModule} from './services/products.service-module';
 
 @NgModule({
   imports: [RouterModule.forRoot([{path: 'product/:id', component: ProductDetailComponent}, {
@@ -29,7 +32,10 @@ import {ActivityServiceModule} from './services/activity.service-module';
   }, {path: 'user/:id', component: UserComponent}, {
     path: 'activity/:type',
     component: ActivityComponent
-  }]), ProductDetailComponentModule, ProductServiceModule, CatFactsComponentModule, CatFactsServiceModule, AgePredictionComponentModule, AgePredictionServiceModule, CartComponentModule, CartServiceModule, UserComponentModule, UserServiceModule, ActivityComponentModule, ActivityServiceModule],
+  }, {
+    path: 'productList',
+    component: ProductListComponent
+  }]), ProductDetailComponentModule, ProductServiceModule, CatFactsComponentModule, CatFactsServiceModule, AgePredictionComponentModule, AgePredictionServiceModule, CartComponentModule, CartServiceModule, UserComponentModule, UserServiceModule, ActivityComponentModule, ActivityServiceModule, ProductListComponentModule, ProductsServiceModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule {
